@@ -1,0 +1,2 @@
+//Comandos basicos:
+-'yarn init -y' para iniciar projeto, onde -y aplica yes para todas as perguntas
