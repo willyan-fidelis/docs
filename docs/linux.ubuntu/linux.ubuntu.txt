@@ -1,0 +1,4 @@
+Primeiros comandos no linux:
+-https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
+
+Falta logar no git instalado localmente!
