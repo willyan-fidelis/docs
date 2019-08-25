@@ -1,0 +1,4 @@
+//Pacotes uteis:
+-Auto refresh: yarn add nodemon
+-Sintaxe import xyz from './abc' (mais moderno) ao invez de const xyz = require('./abc'): 'yarn add sucrase'.
+    -Apos isso criar arquivo nodemon.json, mapeando para rodar com esse sucrase. Para testar o sucrase: 'yarn sucrase-node src/server.js'

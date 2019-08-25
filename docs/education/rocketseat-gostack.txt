@@ -1,0 +1,2 @@
+//iniciando-back-end-do-gobarber:
+-docker on windows  home not work! Its time to go Linux!
