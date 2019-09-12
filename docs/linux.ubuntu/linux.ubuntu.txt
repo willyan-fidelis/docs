@@ -1,4 +1,21 @@
 Primeiros comandos no linux:
 -https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
+-https://itsfoss.com/take-screenshot-linux/
+-https://sempreupdate.com.br/como-executar-arquivo-appimage-no-linux/
+-Abrir terminal: 'ctrl + alt + t'
+-https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/
+-Passos adicionais para instalar Docker no linux(possi dicas legais como por exemplo iniciar um serviço com sistema operacional/desinstalar esse serviço..):
+    -https://docs.docker.com/install/linux/linux-postinstall/
+
+//Intalar:
+-sudo apt install curl
+-Editor de texto: sudo apt install vim
+
+//Conexão remota:
+https://www.edivaldobrito.com.br/teamviewer-no-linux-manualmente/
+
+
+vim ~/.bashrc
 
 Falta logar no git instalado localmente!
+https://www.computerhope.com/unix/ucd.htm

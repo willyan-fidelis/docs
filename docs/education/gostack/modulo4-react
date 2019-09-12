@@ -1,0 +1,28 @@
+//Iniciando package.sjon:
+-yarn init
+
+//Adicionando babel e webpack, como devDependencies:
+-yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli -D
+
+//Agora add o react:
+-yarn add react react-dom
+
+//Criar arquivos de config do babel(transpilador) e webpack(que vai rodar os transpiladores):
+-Depois disso: 'yarn add babel-loader -D'
+
+//Rodar o webpack:
+-Isso ira criar a pasta, bem como os arquivos transpilados com codigo 'simples' que o navegador entende
+
+//Add:
+-yarn add webpack-dev-server -D
+-yarn add style-loader css-loader -D
+-yarn add file-loader -D
+
+//Add:
+-yarn add @babel/plugin-proposal-class-properties -D
+
+//IMPORTANTE:
+-Funções de classe que precisam acessar o this precisam estra no formato arrow function
+
+//Add:
+-yarn add prop-types

@@ -1,0 +1,2 @@
+//Terminal para linux:
+-hyper.is

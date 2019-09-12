@@ -1,0 +1,79 @@
+//iniciando-back-end-do-gobarber:
+-docker on windows  home not work! Its time to go Linux!
+
+//Modulo: Iniciando back-end do GoBarber:
+-https://hub.docker.com/_/postgres
+
+//Fazer com que ESLint atualize todos arquivos, sem ter que abrir e salvar:
+yarn eslint --fix src --ext .js
+
+//Instalando Sequelize:
+-yarn add sequelize
+-yarn add sequelize-cli -D
+//Instalando dependencias para postgres:
+-yarn add pg pg-hstore
+
+//Comandos docker:
+-docker run --name database -e POSTGRES_PASSWORD=docker -d 5432:5432 -d postgres
+-docker start database
+-docker ps
+-docker ps -a
+//Imagens famosas:
+-docker run --name mongobarber -p 27017:27017 -d -t mongo
+
+//Migrations/Sequelize:
+-Criando uma migration de uma tabela: yarn sequelize migration:create --name=create-tableName
+-Depois de criado a migration da tabela, finalize e edite esse arquivo de migration
+-Depois disso rode a migration: yarn sequelize db:migrate
+-Desfazendo ultimas migrations: yarn sequelize db:migrate:undo
+-Desfazendo todas migrations: yarn sequelize db:migrate:undo:all
+
+//Autenticação JWT:
+-JSON web token
+
+//Troca de arquivo (upload/download):
+-multipart form data
+-yarn add multer
+
+//Biblioteca para trabalhar com datas:
+-yarn add date-fns
+-yarn add date-fns@next
+
+//Adicionando o mongoose
+-yarn add mongoose
+-Instalando uma GUI para visualizar nossa base de dados Mongo:
+    -MongoDB Compass Community
+
+//Adicionando envio de email na aplicação:
+-yarn add nodemailer
+-criando uma conta no https://mailtrap.io
+
+//Utilizando templates nos email:
+-Html
+-Templates engine html: https://handlebarsjs.com/
+-Instalando duas integrações:
+    -express-handlebars
+    -nodemailer-handlebars
+    -yarn add express-handlebars nodemailer-handlebars
+
+//Configurando filas com Redis:
+-docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
+-Adiconando o gerenciador de jobs em background queue:
+    -yarn add bee-queue
+
+
+-Relembrar sucrase
+
+//Ferramentas para tratamento de erros:
+-yarn add @sentry/node@5.6.2
+-Alguns errors do express dentros de funções async não sao captados pelo sentry.
+    -por isso devemos instalar um instenção que resolve esse problema:
+    -yarn add express-async-errors
+-Agora instalamos ferramento para gerar msg de erro de forma mais eficiente:
+    -yarn add youch
+
+//Variaveis globais
+-Criar arquivo .env
+-Instalar 'yarn add dotenv' para coloca-las em uso
+-Depois disso em app.js 'import dotenv/config'
+-Pronto agora traves de 'process.env.XXX' ja esta disponivel globalmente
