@@ -1,0 +1,15 @@
+//Usando a cli do react para criar todo projeto, sem ter que faze-lo manualmente:
+-yarn create react-app modulo5
+
+//Agora configurando eslint, editor config e afins:
+-Botao direito generate .deitconfig
+-yarn add eslint -D
+-yarn eslint --init
+
+//Estamos usando yarn e não npm, entao:
+-apagar arquivo package-lock.json
+-depois rodar 'yarn' para gerar yarn.lock e atualizar dependencias
+
+
+//Continando agora com prettier:
+-yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
