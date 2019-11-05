@@ -1,0 +1,2 @@
+Deploy de aplicações NodeJS à AWS com Docker | Diego Fernandes
+https://www.youtube.com/watch?v=kqBCHYf_adA&t=3s
